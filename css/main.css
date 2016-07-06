@@ -60,7 +60,18 @@ body {
 }
 
 .text {
-	position: fixed;
-	height: 100px;
+	position: relative;
+	font-family: comic;
+	height: 400px;
 	width: 450px;
+	font-size: 25px;
+	padding-top: 90px;
+}
+
+.text p {
+	width: 50%;
+}
+
+.text p + p {
+	margin-left: 200px;
 }
