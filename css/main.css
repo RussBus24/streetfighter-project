@@ -4,6 +4,7 @@ body {
 
 .main {
 	background-color: white;
+	display: flex;
 	margin-top: 110px;
 	padding-left: 100px;
 	min-width: 1200px;
@@ -59,9 +60,18 @@ body {
 }
 
 .text {
-	background-color: #fff;
-	font-family: comical;
-	position: absolute;
+	position: relative;
+	font-family: comic;
 	height: 400px;
 	width: 450px;
+	font-size: 25px;
+	padding-top: 90px;
+}
+
+.text P {
+	width: 50%;
+}
+
+.text p + p {
+	margin-left: 200px;
 }
